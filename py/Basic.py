@@ -1,0 +1,10 @@
+num = int(input('type number: '))
+pre = 8
+print('**:', pre**num)
+print('//: ' + str(pre//num))
+print('&: ' + str(pre&num))
+print('|: ' + str(pre|num))
+print('^: ' + str(pre^num))
+print('~: ' + str(~num))
+print('<<: ' + str(pre<<num))
+print('>>: ' + str(pre>>num))
