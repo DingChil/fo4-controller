@@ -16,3 +16,8 @@ a = 'ABC'
 b = a
 a = 'XYZ'
 print(b)
+print(ord('A'))
+print(chr(66))
+print('\u4e2d\u6587')
+c = b'ABC'
+print(c)
