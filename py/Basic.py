@@ -21,3 +21,6 @@ print(chr(66))
 print('\u4e2d\u6587')
 c = b'ABC'
 print(c)
+print('def'.encode('utf-8'))
+print(b'\xe4\xb8\xad\xe6\x96\x87'.decode('utf-8'))
+print(b'\xe4\xb8\xad\xff'.decode('utf-8', errors='ignore'))
