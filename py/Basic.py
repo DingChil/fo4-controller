@@ -1,3 +1,6 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
 num = int(input('type number: '))
 pre = 8
 print('**:', pre**num)
@@ -27,3 +30,5 @@ print(b'\xe4\xb8\xad\xff'.decode('utf-8', errors='ignore'))
 print(len('\xe4\xb8\xad\xe6\x96\x87'))
 print(len(b'\xe4\xb8\xad\xe6\x96\x87'))
 print(len((b'\xe4\xb8\xad\xe6\x96\x87').decode('utf-8')))
+print('%5d-%03d' % (3, 1))
+print('%.4f' % 3.1415926)
