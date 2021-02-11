@@ -43,3 +43,5 @@ print(arr)
 arr.pop()
 arr.pop(-2)
 print(arr)
+arr[1] = ['000', 456, 'xyz']
+print(arr, len(arr), len([]))
