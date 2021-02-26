@@ -3,7 +3,7 @@
 
 num = int(input('type number: '))
 pre = 8
-print('**:', pre**num)
+print('**: ', pre**num)
 print('//: ' + str(pre//num))
 print('&: ' + str(pre&num))
 print('|: ' + str(pre|num))
@@ -45,3 +45,7 @@ arr.pop(-2)
 print(arr)
 arr[1] = ['000', 456, 'xyz']
 print(arr, len(arr), len([]))
+oneElement = ('000',)
+noTuple = (1)
+realTuple = ('aaa', 'bbb', [111, 222])
+print(oneElement, noTuple, realTuple)
